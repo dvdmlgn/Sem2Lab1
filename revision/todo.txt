@@ -1,0 +1,9 @@
+﻿Todo:
+	- Create 'onLoad' and move set up stuff into it,
+	- Implemant the 'validate' error-handling
+	- get the json sfuff working
+
+
+Optional:
+	- Have band details be randomly generated, 
+		=> i.e, their name and members

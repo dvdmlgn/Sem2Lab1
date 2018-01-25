@@ -1,0 +1,24 @@
+﻿<Window x:Class="revision.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:revision"
+        mc:Ignorable="d"
+        Title="Revision" Height="530.719" Width="775.49">
+    <Grid>
+        <Label x:Name="labelBands" Content="Bands" HorizontalAlignment="Left" Margin="65,26,0,0" VerticalAlignment="Top" Height="47" Width="91" FontSize="21.333" FontWeight="Bold"/>
+        <Label x:Name="labelGenre" Content="Genre" HorizontalAlignment="Left" Margin="38,73,0,0" VerticalAlignment="Top" Width="48" FontSize="13.333"/>
+        <ComboBox x:Name="comboBoxGenres" HorizontalAlignment="Left" Margin="91,73,0,0" VerticalAlignment="Top" Width="120"/>
+        <ListBox x:Name="listBoxBands" HorizontalAlignment="Left" Height="267" Margin="38,123,0,0" VerticalAlignment="Top" Width="173" SelectionChanged="listBoxBands_SelectionChanged"/>
+        <Label x:Name="labelBandInformation" Content="Band Information" HorizontalAlignment="Left" Margin="419,32,0,0" VerticalAlignment="Top" Width="253" Height="36" FontSize="16" FontWeight="Bold"/>
+        <Label x:Name="labelFormed" Content="Formed" HorizontalAlignment="Left" Margin="419,123,0,0" VerticalAlignment="Top" Width="77"/>
+        <Label x:Name="labelMembers" Content="Members" HorizontalAlignment="Left" Margin="419,154,0,0" VerticalAlignment="Top" Width="77"/>
+        <TextBox x:Name="textBoxFormed" HorizontalAlignment="Left" Height="23" Margin="501,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="textBoxMembers" HorizontalAlignment="Left" Height="75" Margin="501,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="154" IsEnabled="False"/>
+        <Label x:Name="labelAlbums" Content="Albums" HorizontalAlignment="Left" Margin="419,252,0,0" VerticalAlignment="Top" Height="37" Width="91" FontSize="14.667" FontWeight="Bold"/>
+        <ListBox x:Name="listBoxAlbums" HorizontalAlignment="Left" Height="119" Margin="419,294,0,0" VerticalAlignment="Top" Width="253"/>
+        <Button x:Name="buttonSave" Content="save" HorizontalAlignment="Left" Margin="597,447,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>
